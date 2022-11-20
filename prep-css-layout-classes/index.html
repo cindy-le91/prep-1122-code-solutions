@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>CSS Layout Classes</title>
+  <link rel="stylesheet" href="reset.css">
+  <style>
+    /* stylelint-disable block-no-empty */
+    body {
+      font-family: sans-serif;
+    }
+
+    h1 {
+      text-align: center;
+    }
+
+    .container {
+      max-width: 992px;
+      margin: auto;
+
+    }
+
+    .row {
+      width: 100%;
+      display: flex;
+
+    }
+
+    .column {
+      flex-basis: calc(100%/3);
+      padding-left: 5px;
+      padding-right: 5px;
+      margin:8px;
+    }
+    img {
+      width: 100%;
+      height: 60%;
+
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Complete the HTML here -->
+  <h1>Harry Potter</h1>
+  <div class="container">
+    <div class="row">
+      <div class="column">
+        <img src="https://upload.wikimedia.org/wikipedia/en/7/7a/Harry_Potter_and_the_Philosopher%27s_Stone_banner.jpg" alt="Harry Potter 1">
+        <h3>Harry Potter and the Socerer's Stone</h3>
+        <p>Adaptation of the first of J.K. Rowling's popular children's novels about Harry Potter, a boy who learns on his eleventh
+        birthday that he is the orphaned son of two powerful wizards and possesses unique magical powers of his own. He is
+        summoned from his life as an unwanted child to become a student at Hogwarts, an English boarding school for wizards.
+        There, he meets several friends who become his closest allies and help him discover the truth about his parents'
+        mysterious deaths.</p>
+      </div>
+      <div class="column">
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/c0/Harry_Potter_and_the_Chamber_of_Secrets_movie.jpg" alt="Harry Potter 2">
+        <h3>Harry Potter and the Chamber of Secrets</h3>
+        <p>The second instalment of boy wizard Harry Potter's adventures at Hogwarts School of Witchcraft and Wizardry, based on
+        the novel by JK Rowling. A mysterious elf tells Harry to expect trouble during his second year at Hogwarts, but nothing
+        can prepare him for trees that fight back, flying cars, spiders that talk and deadly warnings written in blood on the
+        walls of the school.</p>
+      </div>
+      <div class="column">
+        <img src="https://upload.wikimedia.org/wikipedia/en/b/bc/Prisoner_of_azkaban_UK_poster.jpg" alt="Harry Potter 3">
+        <h3>Harry Potter and the Prisoner of Azkaban</h3>
+        <p>Harry Potter's (Daniel Radcliffe) third year at Hogwarts starts off badly when he learns deranged killer Sirius Black
+        (Gary Oldman) has escaped from Azkaban prison and is bent on murdering the teenage wizard. While Hermione's (Emma
+        Watson) cat torments Ron's (Rupert Grint) sickly rat, causing a rift among the trio, a swarm of nasty Dementors is sent
+        to protect the school from Black. A mysterious new teacher helps Harry learn to defend himself, but what is his secret
+        tie to Sirius Black?</p>
+
+      </div>
+    </div>
+
+
+  </div>
+</body>
+</html>
